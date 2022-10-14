@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The best Five</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<div>
+			<h1>Choose Your Best Five Bags</h1>
+			<p>These Bags are made By Bangladesh. You can Buy from here as you want.</p>
+		</div>
+	</header>
+	<main>
+		<div class="main-inner">
+			<div class="all-bags">
+				<div class="bag">
+					<div class="card" style="width: 18rem;">
+						<img src="img/bag1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 id="title" class="card-title">Travel Bag</h5>
+							<a href="#" id="cart" class="btn btn-primary">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="bag">
+					<div class="card" style="width: 18rem;">
+						<img src="img/bag2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 id="title2" class="card-title">Ladies Bag</h5>
+							<a href="#" id="cart2" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="bag">
+					<div class="card" style="width: 18rem;">
+						<img src="img/bag3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 id="title3" class="card-title">Tour Bag</h5>
+							<a href="#" id="cart3" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="bag">
+					<div class="card" style="width: 18rem;">
+						<img src="img/bag4.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 id="title4" class="card-title">Visitor Bag</h5>
+							<a href="#" id="cart4" class="btn btn-primary">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="bag">
+					<div class="card" style="width: 18rem;">
+						<img src="img/bag5.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 id="title5" class="card-title">Gym Bag</h5>
+							<a href="#" id="cart5" class="btn btn-primary">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="bag">
+					<div class="card" style="width: 18rem;">
+						<img src="img/bag6.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 id="title6" class="card-title">School Bag</h5>
+							<a href="#" id="cart6" class="btn btn-primary">Add To Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="selected-items">
+				<div class="selected-bag">
+					<p>All-Bags</p>
+					<ul id="list-container"></ul>
+				</div>
+				<div class="budget">
+					<h2>The Budget</h2>
+
+					<div class="input_field">
+						<p>Per Bag</p>
+						<input type="text" name="" id="perBagPrice" placeholder="1000">
+					</div>
+					<button id="AllBagPrice" type="button" class="btn btn-primary mt-2">Calculate</button>
+					<p class="bag-exp">Bag Expenses $<span id="bagExp" >0</span></p>
+
+					<div class="input_field">
+						<p>Shipping Cost</p>
+						<input id="ShipingCost" type="text" name="">
+					</div>
+					<div class="input_field">
+						<p>Commission Cost</p>
+						<input id="CommissionCost" type="text" name="">
+					</div>
+					<button id="totalCost" type="button" class="btn btn-primary mt-2">Calculate Total</button>
+					<p class="total">$ <span id="totalAmount" >0</span></p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

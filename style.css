@@ -1,0 +1,36 @@
+header{
+	background-color: brown;
+	opacity: 2.5;
+	height: 60vh;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-inner{
+	padding: 30px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.all-bags{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 14px;
+	grid-column-gap: 10px;
+}
+.selected-bag{
+	background-color: brown;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.budget{
+	background-color: brown;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
